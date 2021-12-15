@@ -22,6 +22,6 @@ steps:
 - task: TerraformCLI@0 
   inputs : 
     command:  'apply' 
-    workingDirectory: • '$(System.DefaultWorkingDirectory)/dir'
+    workingDirectory: '$(System.DefaultWorkingDirectory)/dir'
     environrnentServiceName: 'service-connection-name' 
     allowTelemetryCollection : true 
